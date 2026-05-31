@@ -50,7 +50,7 @@ The video should cover:
 1. **Demo** — show the integration working in both directions: a team marks approval in the sheet and the status updates in Coframe; a new variant added in Coframe appears in the sheet
 2. **Your solution** — walk through what you built, how you built it, and why you made the choices you did. Include every AI tool you used during the process and how it shaped the result
 3. **Edge cases** — what edge cases did you handle, what's already solved by the setup, and what's out of scope for now
-4. **Productionization** — how would you harden this for a real customer? What would change at scale?
+4. **Productionization** — how would you make this work for other customers? How would you architect it?
 
 ---
 
