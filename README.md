@@ -39,11 +39,16 @@ Make a copy. This is the sheet Sarah uses to coordinate approvals today. Each te
 
 Close the loop — without Sarah.
 
-When all four teams have signed off in the sheet, the variant's status in Coframe should update automatically. You choose how: a script, a trigger, a server, a cron job — whatever gets it working.
+When all four teams have signed off in the sheet, the variant's status in Coframe should update automatically.
 
 > The mock API resets state on server restart. Keep that in mind when designing your solution.
 
-You have 2 hours. The output is a working demo you walk us through on the call.
+You have 2 hours. Record a video walkthrough that covers:
+
+1. **Demo** — show the integration working end-to-end: a team marks approval in the sheet, the status updates in Coframe
+2. **Your solution** — walk through the code and explain what you built and why
+3. **Edge cases** — what edge cases did you handle, what's already solved by the setup, and what's out of scope for now
+4. **Productionization** — how would you harden this for a real customer? What would change at scale?
 
 ---
 
