@@ -46,7 +46,7 @@ When all four teams have signed off in the sheet, the variant's status in Cofram
 You have 2 hours. Record a video walkthrough that covers:
 
 1. **Demo** — show the integration working in both directions: a team marks approval in the sheet and the status updates in Coframe; a new variant added in Coframe appears in the sheet
-2. **Your solution** — walk through the code and explain what you built and why
+2. **Your solution** — walk through what you built, how you built it, and why you made the choices you did. Include every AI tool you used during the process and how it shaped the result
 3. **Edge cases** — what edge cases did you handle, what's already solved by the setup, and what's out of scope for now
 4. **Productionization** — how would you harden this for a real customer? What would change at scale?
 
