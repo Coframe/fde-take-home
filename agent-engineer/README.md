@@ -66,20 +66,11 @@ Use these to generate a UI layout that serves this specific visitor — surfacin
 
 ## Example queries
 
-### 1. Non-technical buyer
-```
-/?q=i+want+the+best+biggest+tv+i+can+get+for+a+reasonable+price+good+reviews+dont+need+specs
-```
-
-### 2. Technical enthusiast comparing OLEDs
-```
-/?q=looking+for+oled+or+qd-oled+only+need+detailed+specs+refresh+rate+hdr+want+to+compare+side+by+side&ids=lg-c3-oled-65,samsung-s90c-65,sony-a95l-65
-```
-
-### 3. Office procurement — buying in bulk
-```
-/?q=buying+5+units+for+a+conference+room+need+reliable+trusted+brand+simple+setup+best+price+no+new+brands&ids=sony-x90l-65,samsung-q60c-65,sony-x80l-55
-```
+| # | Who | URL |
+|---|---|---|
+| 1 | Non-technical buyer | `/?q=i+want+the+best+biggest+tv+i+can+get+for+a+reasonable+price+good+reviews+dont+need+specs` |
+| 2 | Technical enthusiast comparing OLEDs | `/?q=looking+for+oled+or+qd-oled+only+need+detailed+specs+refresh+rate+hdr+want+to+compare+side+by+side&ids=lg-c3-oled-65,samsung-s90c-65,sony-a95l-65` |
+| 3 | Office procurement — buying in bulk | `/?q=buying+5+units+for+a+conference+room+need+reliable+trusted+brand+simple+setup+best+price+no+new+brands&ids=sony-x90l-65,samsung-q60c-65,sony-x80l-55` |
 
 ---
 
