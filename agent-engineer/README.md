@@ -83,4 +83,4 @@ The video should cover:
 1. **Demo** — show the same product rendering differently for each example query above
 2. **Your solution** — what you built, how, and why. Show how you built it: prompts, plans, agent outputs, iterations
 3. **Edge cases** — what you handled, what's already covered by the harness, what's out of scope
-4. **Productionization** — how would you make this work for other customers? How would you architect it?
+4. **Productionization** — how would you make this a scalable system?
