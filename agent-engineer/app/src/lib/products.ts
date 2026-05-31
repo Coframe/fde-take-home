@@ -27,6 +27,7 @@ export interface Product {
   quantityAvailable: number;
   highlights: string[];
   reviews: Review[];
+  imageUrl: string;
 }
 
 const products = productsJson as Product[];

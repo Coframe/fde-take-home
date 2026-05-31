@@ -8,6 +8,19 @@ interface Review {
   date: string;
 }
 
+const IMAGE_KEYWORDS: Record<string, string> = {
+  'OLED evo':       'oled,television,dark',
+  'QD-OLED':        'qd-oled,television,screen',
+  'OLED':           'oled,flatscreen,television',
+  'Neo QLED':       'samsung,television,4k',
+  'QLED Mini LED':  'miniled,television,4k',
+  'Mini LED ULED':  'television,gaming,4k',
+  'Mini LED':       'miniled,tv,screen',
+  'Full Array LED': 'sony,television,livingroom',
+  'QLED':           'television,qled,modern',
+  'LED':            'flatscreen,tv,wall',
+};
+
 interface Product {
   id: string;
   brand: string;
@@ -18,6 +31,7 @@ interface Product {
   displayType: string;
   resolution: string;
   refreshRate: number;
+  imageUrl: string;
   hdr: string[];
   smartPlatform: string;
   ports: { hdmi: number; usb: number };
@@ -714,7 +728,12 @@ const products: Product[] = [
   },
 ];
 
+const withImages = products.map((p, i) => ({
+  ...p,
+  imageUrl: `https://loremflickr.com/600/400/${IMAGE_KEYWORDS[p.displayType] ?? 'television,4k'}?lock=${i + 1}`,
+}));
+
 const outPath = path.join(__dirname, '../data/products.json');
 fs.mkdirSync(path.dirname(outPath), { recursive: true });
-fs.writeFileSync(outPath, JSON.stringify(products, null, 2));
-console.log(`Generated ${products.length} products → ${outPath}`);
+fs.writeFileSync(outPath, JSON.stringify(withImages, null, 2));
+console.log(`Generated ${withImages.length} products → ${outPath}`);

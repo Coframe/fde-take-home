@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getProductById } from '@/lib/products';
 
@@ -18,7 +19,17 @@ export default async function ProductPage({
 
       <div className="pdp-layout">
         <div className="pdp-main">
-          <span style={{ fontSize: 12, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.5px', color: '#888' }}>{product.brand}</span>
+          <div className="pdp-image">
+            <Image
+              src={product.imageUrl}
+              alt={product.name}
+              width={900}
+              height={500}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 10 }}
+              unoptimized
+            />
+          </div>
+          <span style={{ fontSize: 12, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '.5px', color: '#888', marginTop: 20, display: 'block' }}>{product.brand}</span>
           <h2 style={{ marginTop: 4 }}>{product.name}</h2>
 
           <p style={{ fontSize: 13, color: '#555', margin: '4px 0 20px' }}>
