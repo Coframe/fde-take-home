@@ -43,7 +43,9 @@ When all four teams have signed off in the sheet, the variant's status in Cofram
 
 > The mock API resets state on server restart. Keep that in mind when designing your solution.
 
-You have 2 hours. Record a video walkthrough that covers:
+You have 2 hours. Submit a **recorded video** and the **code** (repo link, gist, or zip).
+
+The video should cover:
 
 1. **Demo** — show the integration working in both directions: a team marks approval in the sheet and the status updates in Coframe; a new variant added in Coframe appears in the sheet
 2. **Your solution** — walk through what you built, how you built it, and why you made the choices you did. Include every AI tool you used during the process and how it shaped the result
