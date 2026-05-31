@@ -81,6 +81,6 @@ Submit a **recorded video** and your **code** (repo link, gist, or zip).
 The video should cover:
 
 1. **Demo** — show the same product rendering differently for each example query above
-2. **Your solution** — what you built, how, and why. Include every AI tool you used during the process and how it shaped the result
+2. **Your solution** — what you built, how, and why. Show how you built it: prompts, plans, agent outputs, iterations
 3. **Edge cases** — what you handled, what's already covered by the harness, what's out of scope
 4. **Productionization** — how would you make this work for other customers? How would you architect it?
