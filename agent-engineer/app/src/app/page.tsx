@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { getAllProducts } from '@/lib/products';
 
 export default function CatalogPage() {
@@ -10,16 +9,7 @@ export default function CatalogPage() {
       <div className="catalog-grid">
         {products.map(p => (
           <a key={p.id} href={`/product/${p.id}`} className="product-card">
-            <div className="card-image">
-              <Image
-                src={p.imageUrl}
-                alt={p.name}
-                width={600}
-                height={400}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                unoptimized
-              />
-            </div>
+            <div className="card-image" />
             <span className="brand">{p.brand}</span>
             <span className="product-name">{p.name}</span>
             <span className="price">${p.price.toLocaleString()}</span>
