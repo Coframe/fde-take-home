@@ -2,11 +2,15 @@
 
 ## Background
 
-Coframe's agents continuously generate and personalise copy for client websites. When a visitor lands on a page, the upstream agent has already built a profile: what they are looking for, how technical they are, how many units they want to buy. That context travels with the user as a `q=` parameter on the URL.
+It's a matter of time until interfaces are fully dynamic — generated just in time, for every user, based on who they are and what they need in that moment. We are not there yet, but we are close enough to ask: what can we do right now?
 
-The current storefront ignores it — every visitor sees the same catalog, the same product layout.
+That is the challenge for your agent.
 
-**The ask:** build a just-in-time UI generator. When a page receives a `q=` parameter, it should render a layout tailored to that specific visitor — surfacing the right information in the right order — in under 5 seconds.
+You have a standard TV storefront. A visitor arrives carrying context: what they are looking for, how technical they are, how many units they need. That context travels as a `q=` parameter on the URL — injected by an upstream Coframe agent that has already built a profile of this visitor.
+
+The storefront ignores it. Every visitor gets the same page.
+
+**Your task:** change that.
 
 ---
 
